@@ -26,6 +26,7 @@
       <property name="query"
                 value="//SINGLE_LINE_COMMENT[./COMMENT_CONTENT[not(starts-with(@text, ' '))
                        and not(starts-with(@text, '/'))
+                       and not(starts-with(@text, 'noinspection'))
                        and not(@text = '\n') and not(ends-with(@text, '//\n'))]]"/>
       <message key="matchxpath.match" value="''//'' must be followed by a whitespace."/>
     </module>
